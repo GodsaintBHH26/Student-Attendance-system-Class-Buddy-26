@@ -23,20 +23,8 @@ export const regUser = async (req, res) => {
 
     await newUser.save();
 
-    const token = jwt.sign(
-      {
-        id: newUser._id,
-        uname: newUser.uname,
-        unique_id: newUser.unique_id,
-        role: newUser.role,
-      },
-      process.env.JWT_SECRET,
-      { expiresIn: "1h" }
-    );
-
     res.status(201).json({
       msg: `User created successfully ✅`,
-      token,
       user: {
         id: newUser._id,
         uname: newUser.uname,
@@ -46,7 +34,7 @@ export const regUser = async (req, res) => {
       },
     });
   } catch (error) {
-    res.status(500).json({ msg: error.message });
+    return res.status(500).json({ msg: error.message });
   }
 };
 
@@ -84,6 +72,6 @@ export const logUser = async (req, res) => {
       },
     });
   } catch (error) {
-    res.status(500).json({ msg: error.message });
+    return res.status(500).json({ msg: error.message });
   }
 };
