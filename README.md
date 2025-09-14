@@ -1,12 +1,16 @@
-# React + Vite
+# Class Buddy 26
+This is a student class attendance system that records, updates and remove (if made any mistake) attendance for students from the database.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Planning draft
+**Pages that needs to be created for this project(Website layout):**
+    1. Login/SignUp page (for authentication)
+    2. Home page -------------------> Attendance
+                        |-----------> Profile
+                        |-----------> Marks/Attendance editor (Accessable to the teachers)
+    3. Account creations (Admin/teachers)
 
-Currently, two official plugins are available:
+**Roles and Users access:**
+    1. Students - Can only access their attendance (read only permission).
+    2. Teachers - Can access and change the attendance of all the students of the class assigned to them (read and write permission).
+    3. Admin - Can access, create and modify data however they want.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
