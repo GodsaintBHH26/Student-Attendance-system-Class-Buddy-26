@@ -1,0 +1,153 @@
+{
+  "uname": "Rohit Mondal",
+  "unique_id": "STD1001",
+  "upassword": "20020315",
+  "role": "student",
+  "class_assigned": "BCAC-6"
+},
+{
+  "uname": "Sanya Roy",
+  "unique_id": "STD1002",
+  "upassword": "20020520",
+  "role": "student",
+  "class_assigned": "BCAC-6"
+},
+{
+  "uname": "Arjun Das",
+  "unique_id": "STD1003",
+  "upassword": "20020110",
+  "role": "student",
+  "class_assigned": "BBA-4"
+},
+{
+  "uname": "Priya Sen",
+  "unique_id": "STD1004",
+  "upassword": "20020225",
+  "role": "student",
+  "class_assigned": "BBA-4"
+},
+{
+  "uname": "Karan Mehta",
+  "unique_id": "STD1005",
+  "upassword": "20020330",
+  "role": "student",
+  "class_assigned": "BCom-2"
+},
+{
+  "uname": "Ananya Gupta",
+  "unique_id": "STD1006",
+  "upassword": "20020412",
+  "role": "student",
+  "class_assigned": "BCom-2"
+},
+{
+  "uname": "Devansh Kumar",
+  "unique_id": "STD1007",
+  "upassword": "20020118",
+  "role": "student",
+  "class_assigned": "BScCS-4"
+},
+{
+  "uname": "Ishita Sharma",
+  "unique_id": "STD1008",
+  "upassword": "20020505",
+  "role": "student",
+  "class_assigned": "BScCS-4"
+}
+// other class ----------------
+{
+  "uname": "Tanya Mishra",
+  "unique_id": "STD1009",
+  "upassword": "20020322",
+  "role": "student",
+  "class_assigned": "BCom-6"
+},
+{
+  "uname": "Aditya Roy",
+  "unique_id": "STD1010",
+  "upassword": "20020109",
+  "role": "student",
+  "class_assigned": "BCom-6"
+},
+{
+  "uname": "Simran Kaur",
+  "unique_id": "STD1011",
+  "upassword": "20020417",
+  "role": "student",
+  "class_assigned": "BCA-4"
+},
+{
+  "uname": "Raghav Jain",
+  "unique_id": "STD1012",
+  "upassword": "20020502",
+  "role": "student",
+  "class_assigned": "BCA-4"
+},
+{
+  "uname": "Neha Bhatt",
+  "unique_id": "STD1013",
+  "upassword": "20020305",
+  "role": "student",
+  "class_assigned": "BScIT-2"
+},
+{
+  "uname": "Vivek Singh",
+  "unique_id": "STD1014",
+  "upassword": "20020228",
+  "role": "student",
+  "class_assigned": "BScIT-2"
+}
+
+
+----------------------------<Teachers>------------------------------
+{
+  "uname": "Rina Dutta",
+  "unique_id": "TCH2001",
+  "upassword": "19801215",
+  "role": "teacher",
+  "class_assigned": "BCAC-6"
+},
+{
+  "uname": "Sahil Verma",
+  "unique_id": "TCH2002",
+  "upassword": "19791130",
+  "role": "teacher",
+  "class_assigned": "BBA-4"
+},
+{
+  "uname": "Meera Nair",
+  "unique_id": "TCH2003",
+  "upassword": "19850720",
+  "role": "teacher",
+  "class_assigned": "BCom-2"
+},
+{
+  "uname": "Rajiv Khanna",
+  "unique_id": "TCH2004",
+  "upassword": "19780518",
+  "role": "teacher",
+  "class_assigned": "BScCS-4"
+}
+
+// other class -----------
+{
+  "uname": "Anjali Sharma",
+  "unique_id": "TCH2005",
+  "upassword": "19830214",
+  "role": "teacher",
+  "class_assigned": "BCom-6"
+},
+{
+  "uname": "Rohit Kapoor",
+  "unique_id": "TCH2006",
+  "upassword": "19791225",
+  "role": "teacher",
+  "class_assigned": "BCA-4"
+},
+{
+  "uname": "Pooja Chawla",
+  "unique_id": "TCH2007",
+  "upassword": "19840607",
+  "role": "teacher",
+  "class_assigned": "BScIT-2"
+}

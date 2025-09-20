@@ -56,6 +56,7 @@ export const logUser = async (req, res) => {
         uname: existingUser.uname,
         unique_id: existingUser.unique_id,
         role: existingUser.role,
+        class_assigned:existingUser.class_assigned
       },
       process.env.JWT_SECRET,
       { expiresIn: "1h" }

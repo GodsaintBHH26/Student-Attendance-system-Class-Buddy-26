@@ -6,12 +6,12 @@ This is a student class attendance system that records, updates, and removes (if
 ## Planning Draft
 
 ### Pages to be Created (Website Layout)
-1. **Login/SignUp Page** (for authentication)
+1. **Login Page** (for authentication)
 2. **Home Page**
    - Attendance  
-   - Profile  
-   - Marks/Attendance Editor *(accessible to teachers)*  
-3. **Account Creation** (Admin/Teachers)
+   - Profile  *(accessible to teachers & admin)*
+   - Student List/Attendance Editor *(accessible to teachers & admin)*  
+3. **Account Creation** (Admin)
 
 ---
 

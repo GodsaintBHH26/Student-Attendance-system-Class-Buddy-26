@@ -1,0 +1,32 @@
+[
+  {
+    "studentId": "STD1001",
+    "status": "present",
+    "role": "student",
+    "date": "2025-09-14"
+  },
+  {
+    "studentId": "STD1002",
+    "status": "absent",
+    "role": "student",
+    "date": "2025-09-14"
+  },
+  {
+    "studentId": "STD1003",
+    "status": "present",
+    "role": "student",
+    "date": "2025-09-14"
+  },
+  {
+    "studentId": "STD1004",
+    "status": "absent",
+    "role": "student",
+    "date": "2025-09-14"
+  },
+  {
+    "studentId": "STD1005",
+    "status": "present",
+    "role": "student",
+    "date": "2025-09-14"
+  }
+]

@@ -4,6 +4,7 @@ import cors from "cors";
 import connectDB from "./config/db.js";
 import authRoute from "./routes/authRoute.js";
 import attendanceRoute from "./routes/attendanceRoute.js";
+import studentListRoute from "./routes/studentListRoute.js";
 
 // This is needed without this, any component trying to access the dotenv file won't be able to do so
 dotenv.config();
@@ -12,12 +13,18 @@ dotenv.config();
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: process.env.FRONTEND_URL,
+    credentials: true,
+  })
+);
 
 connectDB();
 
 app.use("/api/auth", authRoute);
 app.use("/api/attendance", attendanceRoute);
+app.use("/api", studentListRoute);
 
 app.get("/", (req, res) => {
   res.send("API started to work.....");
